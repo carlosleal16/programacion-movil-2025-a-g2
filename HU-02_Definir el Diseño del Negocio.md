@@ -1,78 +1,82 @@
-# HU-02:Definir el Diseño del Negocio 
+# 🧾 HU-02: Definir el Diseño del Negocio - Lavadero Luxury
 
-## 1. Introducción  
-Para garantizar una identidad visual coherente en la aplicación **"Cancha La Maravilla"**, es esencial definir una guía de estilos que contemple los elementos de la interfaz de usuario (UI). Este documento describe los colores, tipografía, iconografía y el diseño de las pantallas principales. Su propósito es asegurar una experiencia de usuario fluida y consistente, facilitando la reserva de canchas deportivas a través de una interfaz clara e intuitiva.  
+## 1. Introducción
 
-## 2. Paleta de Colores  
-La aplicación usa una gama de colores basada en el verde, representando el césped de las canchas y el dinamismo del fútbol.  
+Para lograr una identidad visual coherente en la aplicación **Lavadero Luxury**, es fundamental establecer una guía de estilos que unifique los elementos visuales de la interfaz. Este documento define la **paleta de colores**, **tipografía**, **iconografía** y el **diseño general de las pantallas clave**. 
 
-- **Colores primarios:**  
-  - 🟢 Verde Oscuro (#03A66A) → Botones y encabezados  
-  - 🟩 Verde Claro (#04BF68) → Resaltados y botones secundarios  
+El objetivo es ofrecer una experiencia de usuario clara, profesional y enfocada en la comodidad del cliente para registrar reservas y gestionar sus vehículos de forma eficiente.
 
-- **Colores secundarios:**  
-  - ⚪ Blanco (#FFFFFF) → Fondos y textos secundarios  
-  - ⚫ Negro (#000000) → Textos principales  
-  - 🟠 Naranja (#EBA845) → Detalles en tarjetas y advertencias  
-  - 🍏 Verde mas Claro (#8FF249) → Botones segundarios
+---
 
-## 3. Tipografía  
-Se emplean tres fuentes principales para lograr una jerarquía visual clara:  
+## 2. Paleta de Colores
 
-- **Rubik Bold (Header 01, 30px)** → Títulos principales  
-- **Rubik Bold (Header 02, 24px)** → Subtítulos y secciones  
-- **Medula One (Header 03, 36px)** → Elementos destacados  
-- **Cantarell Regular (Body Text, 16px)** → Cuerpo del texto  
+La estética de Lavadero Luxury evoca limpieza, confianza y sofisticación. Por ello, se usa una combinación moderna de tonos neutros con acentos elegantes.
 
-## 4. Iconografía  
-Para mejorar la navegación y comprensión de las acciones en la interfaz, se utilizan los siguientes iconos:  
+### 🎨 Colores principales:
+- 🔵 **Azul oscuro** `#007bff` → Botones principales e interacciones importantes.
+- 🔵 **Azul más oscuro** `#0069d9` → Hover y estados activos.
+- ⚪ **Blanco** `#FFFFFF` → Fondos principales y formularios.
+- ⚫ **Negro** `#000000` → Textos destacados y títulos.
 
-### Autenticación y Registro  
-- 👤 **Usuario:** Para los campos de inicio de sesión  
-- 🔒 **Candado:** Representa seguridad en contraseñas  
+### 🎨 Colores secundarios:
+- 🟠 **Naranja dorado** `#EBA845` → Alertas, advertencias y acentos en tarjetas.
+- 🟣 **Gris oscuro** `#333333` → Etiquetas de formularios y subtítulos.
 
-### Reservas  
-- 📅 **Calendario:** Selección de fecha y hora  
-- ⏰ **Reloj:** Indica la duración de la reserva  
-- ⚽ **Balón:** Representa el concepto de cancha  
+---
 
-### Acciones en Canchas  
-- 🔄 **Actualizar:** Refresca la disponibilidad de canchas  
-- ✏️ **Editar:** Permite modificar una reserva  
-- 🗑️ **Eliminar:** Opción para cancelar una reserva  
-- ➕ **Nuevo Evento:** Para agregar una nueva reserva  
+## 3. Tipografía
 
-### Estado de Disponibilidad  
-- ✅ **Verde:** Disponible  
-- ❌ **Rojo:** No disponible  
+Se emplean fuentes modernas y accesibles para reforzar la claridad del contenido y la jerarquía visual.
 
-## 5. Descripción de Pantallas  
+- **Header Principal (30px)** – *Fuente:* Rubik Bold – Usado en títulos como “Registrar Reserva”.
+- **Subtítulo (24px)** – *Fuente:* Rubik Bold – Para secciones importantes.
+- **Texto destacado (36px)** – *Fuente:* Medula One – Para mensajes clave o elementos llamativos.
+- **Texto regular (16px)** – *Fuente:* Cantarell Regular – Usado en formularios y cuerpo del contenido.
 
-### Pantalla de Inicio  
-📌 Contiene el logo y las opciones de **Iniciar Sesión** y **Registrarse**.  
-📌 Fondo temático con una cancha de fútbol.  
+---
 
-### Pantalla de Registro  
-📌 Formulario con campos de usuario, correo y contraseña.  
-📌 Botón **Registrarse** con borde verde.  
+## 4. Iconografía
 
-### Pantalla de Inicio de Sesión  
-📌 Campos de usuario y contraseña con iconografía adecuada.  
-📌 Botón de **Iniciar Sesión** destacado en verde oscuro.  
+Se utilizan íconos representativos para mejorar la interacción del usuario en cada sección de la aplicación.
 
-### Pantalla Principal (Home)  
-📌 Banner con imagen dinámica y opciones de **Reservar cancha**.  
-📌 Tarjetas con detalles de las reservas activas.  
-📌 Acceso rápido al **Calendario de Reservas**.  
+### 🔐 Autenticación
+- 👤 **Usuario** – Para campos de correo electrónico.
+- 🔒 **Candado** – Para contraseñas.
 
-### Pantalla de Selección de Cancha  
-📌 Muestra imágenes de las canchas disponibles.  
-📌 Estado de cada cancha con indicador visual (verde o rojo).  
+### 🧽 Reservas y Vehículos
+- 🚗 **Vehículo** – Para seleccionar un automóvil.
+- 📅 **Calendario** – Para la fecha de reserva.
+- 🧼 **Espuma/servicio** – Para tipo de servicio.
 
-### Pantalla de Reservas  
-📌 Lista de reservas con detalles como ubicación, fecha y hora.  
-📌 Botones de acción para editar o eliminar reservas.  
+### ⚙️ Acciones
+- ➕ **Agregar** – Registrar nueva reserva.
+- ✅ **Confirmar** – Finalizar factura.
+- 🔄 **Actualizar** – Cambiar detalles de reserva.
 
-## 6. Conclusión  
-Esta guía de estilos establece los lineamientos visuales de **"Cancha La Maravilla"**, asegurando una interfaz atractiva, intuitiva y funcional. La combinación de colores, tipografías e iconos permite una navegación eficiente y clara para los usuarios, mejorando la experiencia al gestionar sus reservas deportivas.  
+---
 
+## 5. Descripción de Pantallas
+
+### 🏠 Pantalla de Inicio de Sesión
+- Imagen superior con el logo de Lavadero Luxury.
+- Formulario centrado con fondo blanco y bordes redondeados.
+- Iconos de usuario y candado en los campos.
+- Botón oscuro (negro o azul oscuro) de "Ingresar".
+- Enlace para recuperar contraseña y registrar nueva cuenta.
+
+### 📝 Pantalla de Registro de Reserva
+- Título centrado: “Registrar Reserva”.
+- Selectores desplegables para elegir vehículo y tipo de servicio.
+- Campo de fecha con selector tipo calendario.
+- Botón azul principal para registrar.
+- Al registrar, se muestra un resumen con ID, fecha, servicio y botones de selección de método de pago.
+
+### 💳 Pantalla de Métodos de Pago
+- Resumen de reserva dentro de una tarjeta informativa (`alert-info`).
+- Botones divididos en 3 opciones: Tarjeta, Transferencia (PayPal) y Efectivo.
+- Diseño limpio, con íconos posibles como 💳, 💸 y 🏦.
+
+### 🧾 Pantalla de Factura Final
+- Tarjeta verde (`alert-success`) con todos los datos de la reserva.
+- Datos clave: número de reserva, placa, fecha, servicio, método de pago y estado.
+- Botón para iniciar una nueva reserva.
