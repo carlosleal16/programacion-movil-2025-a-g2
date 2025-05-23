@@ -72,11 +72,11 @@ public ResponseEntity<?> recuperarContrasena(@RequestBody Map<String, String> re
 
 ---
 
-## Frontend (Angular):
+### Frontend (Angular):
 
-### `inicio-sesion.component.html`:
+#### `inicio-sesion.component.html`:
 
-```html
+````java
 <!-- Botón para recuperar contraseña -->
 <button class="btn btn-link mt-2" (click)="abrirRecuperacion()">¿Olvidaste tu contraseña?</button>
 
