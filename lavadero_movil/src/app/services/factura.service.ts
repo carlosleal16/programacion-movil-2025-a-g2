@@ -1,18 +1,16 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment.prod';
+import { CURRENT_API_URL } from './config-api';
 
 @Injectable({
   providedIn: 'root'
 })
 export class FacturaService {
 
-  private readonly apiUrl = environment.apiUrl 
-    ? `${environment.apiUrl}api/facturas`
-    : 'https://172.20.10.2:8443/api/facturas';
+  private readonly apiUrl = `${CURRENT_API_URL}/api/facturas`;
 
-  constructor(private readonly http: HttpClient) { 
+  constructor(private readonly http: HttpClient) {
     console.log('FacturaService API URL:', this.apiUrl);
   }
 

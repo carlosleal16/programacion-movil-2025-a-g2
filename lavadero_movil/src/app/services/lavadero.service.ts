@@ -1,17 +1,17 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment } from 'src/environments/environment.prod';
+import { CURRENT_API_URL } from './config-api';
+
 @Injectable({
   providedIn: 'root'
-})  
+})
 export class LavaderoService {
 
-  
-  private apiUrl = 'https://172.20.10.2:8443/api/users';
+  private apiUrl = `${CURRENT_API_URL}/api/users`;
 
-  constructor(private http: HttpClient) { 
-    console.log('API URL:', this.apiUrl); 
+  constructor(private http: HttpClient) {
+    console.log('API URL:', this.apiUrl);
   }
 
   registrarUsuario(usuario: any): Observable<any> {

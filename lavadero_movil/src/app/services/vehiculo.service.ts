@@ -1,17 +1,15 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { environment} from 'src/environments/environment.prod';
+import { CURRENT_API_URL } from './config-api';
 
 @Injectable({
   providedIn: 'root'
 })
 export class VehiculoService {
-  private apiUrl = `https://172.20.10.2:8443/api/vehiculos`;
+  private apiUrl = `${CURRENT_API_URL}/api/vehiculos`;
 
-
-
-  constructor(private http: HttpClient) { 
+  constructor(private http: HttpClient) {
     console.log('VehiculoService API URL:', this.apiUrl);
   }
 
