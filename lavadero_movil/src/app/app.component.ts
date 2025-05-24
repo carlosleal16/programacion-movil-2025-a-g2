@@ -9,15 +9,15 @@ import { Router, RouterModule } from '@angular/router'; // ✅ Import Router and
   providers: [], // Optionally add providers if needed
 })
 export class AppComponent {
-  userRole: string | null = null;
+  rol: string | null = null;
 
   constructor(private router: Router) {
-    this.loadUserRole();
+    this.loadUserrol();
   }
 
-  loadUserRole(): void {
-    const role = localStorage.getItem('rol');
-    this.userRole = role ? role : null;
+  loadUserrol(): void {
+    const rol = localStorage.getItem('rol');
+    this.rol = rol ? rol : null;
   }
 
   logout(): void {

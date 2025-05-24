@@ -14,12 +14,12 @@
           <ion-label>Precio del servicio</ion-label>
         </ion-item>
 
-        <ion-item *ngIf="userRole === 'admin'" routerLink="/factura" routerDirection="forward" routerLinkActive="selected">
+        <ion-item *ngIf="rol === 'admin'" routerLink="/factura" routerDirection="forward" routerLinkActive="selected">
           <ion-icon name="receipt-outline" slot="start"></ion-icon>
           <ion-label>Factura</ion-label>
         </ion-item>
 
-        <ion-item *ngIf="userRole === 'admin'" routerLink="/gestionventas" routerDirection="forward" routerLinkActive="selected">
+        <ion-item *ngIf="rol === 'admin'" routerLink="/gestionventas" routerDirection="forward" routerLinkActive="selected">
           <ion-icon name="stats-chart-outline" slot="start"></ion-icon>
           <ion-label>Gestión ventas</ion-label>
         </ion-item>
