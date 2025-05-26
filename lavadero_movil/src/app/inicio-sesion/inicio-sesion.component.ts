@@ -48,13 +48,13 @@ export class InicioSesionComponent {
         // Redirección según rol
         switch (response.rol) {
           case 'admin':
-            this.router.navigate(['/precio-servicio']);
+            this.router.navigate(['/gestionventas']);  
             break;
           case 'cliente':
-            this.router.navigate(['/cliente-reservas']);
+            this.router.navigate(['/precio-servicio']);
             break;
           default:
-            this.router.navigate(['/']);
+            this.router.navigate(['/precio-servicio']);
             break;
         }
       },
